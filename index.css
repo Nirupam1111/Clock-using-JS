@@ -1,0 +1,100 @@
+#clockContainer{
+    position:relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background-color: #064663;
+    border-radius:50%;    
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+    background-color: #FFE3D8;
+}
+
+#hour{
+    width: 1.8%;
+    height: 25%;
+    top:25%;
+    left:48.85%;
+}
+
+#minute{
+    width: 1.6%;
+    height: 30%;
+    top:19%;
+    left:48.89%;
+}
+
+#second{
+    width: 1%;
+    height: 40%;
+    top:9%;
+    left:49.25%;
+    z-index: 3;
+}
+
+#m12{
+    position: absolute;
+    background-color: #BBBBBB;
+    width: 3%;
+    height: 12%;
+    top:1%;
+    left:50%;
+    z-index: 2;
+    border-radius:50%;
+}
+
+#m3{
+    position: absolute;
+    background-color: #BBBBBB;
+    width: 12%;
+    height: 3%;
+    top:50%;
+    right: 1%;
+    z-index: 2;
+    border-radius:50%;
+}
+
+#m6{
+    position: absolute;
+    background-color: #BBBBBB;
+    width: 3%;
+    height: 12%;
+    bottom:1%;
+    left:50%;
+    z-index: 2;
+    border-radius:50%;
+}
+
+#m9{
+    position: absolute;
+    background-color: #BBBBBB;
+    width: 12%;
+    height: 3%;
+    top:50%;
+    left:1%;
+    z-index: 2;
+    border-radius:50%;
+}
+
+#c{
+    position: absolute;
+    background-color: rgb(19, 15, 15);
+    width: 3%;
+    height: 3%;
+    top:48%;
+    left:49%;
+    z-index: 5;
+    border-radius:50%;
+}
+
+.v{
+    background-color: #0A043C;
+    margin: auto;
+    height: 40vw;
+    width:45vw;
+    border-radius:50%;
+}
